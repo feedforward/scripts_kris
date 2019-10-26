@@ -1,0 +1,6 @@
+#I made this in my ~/bin folder - remember to chmod +x the file after you make it
+
+# give your drive a nice name and location
+
+#mount it
+sshfs -o reconnect -o volname=netapp_vol01 -o IdentityFile=~/.ssh/id_rsa GPCL-CPU010.l.pfidev.jp:/mnt/netapp_vol01/kris /Volumes/netapp_vol01/kris 
