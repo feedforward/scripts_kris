@@ -1,0 +1,71 @@
+{
+  "keys": {
+    "command": {
+      "bind":{
+	"cmd-enter": "jupyter-notebook:run-all-cells",
+	"r,c,l": "jupyter-notebook:restart-kernel-and-clear-output"
+	},
+      "unbind": [
+	"f",
+        "r",
+        "s",
+        "a",
+        "b",
+        "y",
+        "m",
+        "k",
+        "j",
+        "x",
+        "c",
+        "p",
+        "o",
+        "l",
+        "h",
+        "d,d",
+        "z",
+        "space",
+        "shift-space",
+        "alt-enter",
+        "shift-enter"],
+      "bind": {
+        "i,a": "jupyter-notebook:insert-cell-above",
+        "i,b": "jupyter-notebook:insert-cell-below",
+        "f,c,o,d": "jupyter-notebook:change-cell-to-code",
+        "f,m,a,r,k": "jupyter-notebook:change-cell-to-markdown",
+        "f,r,a,w": "jupyter-notebook:change-cell-to-raw",
+        "s,c,l": "jupyter-notebook:restart-kernel-and-clear-output",
+        "s,r,a": "jupyter-notebook:restart-kernel-and-run-all-cells",
+        "e,d,i,t,s,h": "jupyter-notebook:edit-command-mode-keyboard-shortcuts",
+        "c,u,t": "jupyter-notebook:cut-cell",
+        "p,a,l,e": "jupyter-notebook:show-command-palette",
+        "c,o,p": "jupyter-notebook:copy-cell",
+        "p,a,s": "jupyter-notebook:paste-cell-replace",
+        "t,o,g,c": "jupyter-notebook:toggle-cell-output-collapsed",
+        "t,o,g,s": "jupyter-notebook:toggle-cell-output-scrolled",
+        "l,i,n": "jupyter-notebook:toggle-cell-line-numbers",
+        "s,h,o,r,t": "jupyter-notebook:show-keyboard-shortcuts",
+        "d,e,l": "jupyter-notebook:delete-cell",
+        "u,n,d,o": "jupyter-notebook:undo-cell-deletion",
+        "cmd-down": "jupyter-notebook:move-cell-down",
+        "cmd-up": "jupyter-notebook:move-cell-up",
+        "cmd-enter": "jupyter-notebook:run-all-cells",
+        "alt-enter": "jupyter-notebook:run-all-cells-above",
+        "c,l,e,a,r": "jupyter-notebook:clear-cell-output"
+      }
+    }
+  },
+
+
+"Cell": {
+        "cm_config": {
+                "lineNumbers": false,
+                "lineWrapping": true
+                        }
+        },
+  "load_extensions": {
+          "nbextensions_configurator/config_menu/main": true,
+          "contrib_nbextensions_help_item/main": true,
+          "codefolding/main": true
+
+  }
+}
