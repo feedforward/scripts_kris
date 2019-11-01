@@ -95,7 +95,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 alias zshconfig="sublime ~/.zshrc"
 alias ohmyzsh="mate ~/.oh-my-zsh"
-alias m1tun="bash ~/Documents/scripts/tun_mn1.sh"
+alias m1tun="bash ~/Documents/scripts_kris/tun_mn1.sh"
 #alias tmux='TERM=screen-256color tmux'
 alias ll="ls -alh"
 # Directory alias
@@ -113,12 +113,14 @@ alias mnttri='sshfs -o defer_permissions puppala@TRINITY.vision.cs.cmu.edu:/ ~/m
 # Jupyter tunnel
 alias tuntri='f(){ssh -N -f -L localhost:$1\:localhost:$1 puppala@TRINITY.vision.cs.cmu.edu};f'
 alias tuntric='f(){ssh -N -f -L $1\:compute-0-$2.local\:$1 puppala@TRINITY.vision.cs.cmu.edu};f'
-alias settri='~/Projects/scripts/connect_tri.sh'
+alias settri='~/Projects/scripts_kris/connect_tri.sh'
 alias mdir='~/mnt/trinity/data/puppala/projects/MEVA'
 alias redir='~/mnt/trinity/data2/puppala/projects/'
 alias hrdir="~/mnt/trinity/data/puppala/courses"
 alias hdir="/Users/kris/Projects/MSR"
 alias adir='~/mnt/trinity/data2/puppala/projects/tracking/devalab'
+alias trdir="~/Projects/trading"
+alias zshsyn="~/Projects/scripts_kris/zshsyn.sh"
 
 
 alias jp='f(){jupyter notebook --no-browser --port $1};f'
@@ -181,5 +183,7 @@ export PKG_CONFIG_PATH="${PKG_CONFIG_PATH} /usr/local/opt/tcl-tk/lib/pkgconfig"
 
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
+
+source ~/.iterm2_shell_integration.zsh
 
 
