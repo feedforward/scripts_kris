@@ -6,6 +6,7 @@ ssh -N -f -L localhost:5000:localhost:5000 puppala@TRINITY.vision.cs.cmu.edu
 
 # For GPU access 
 ssh -N -f -L 5010:compute-0-10.local:5010 puppala@TRINITY.vision.cs.cmu.edu
+ssh -N -f -L 5023:compute-0-23.local:5023 puppala@TRINITY.vision.cs.cmu.edu
 ssh -N -f -L 5019:compute-0-19.local:5019 puppala@TRINITY.vision.cs.cmu.edu
 ssh -N -f -L 5114:compute-1-14.local:5114 puppala@TRINITY.vision.cs.cmu.edu
 # Mounting the sever for file access.
